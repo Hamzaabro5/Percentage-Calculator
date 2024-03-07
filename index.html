@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class-06 Assignment</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Percentage Calculator</h1>
-    <h1>Enter Your Obtained Marks of Each Subject</h1>
+    <h1 class="main-head1">Percentage Calculator</h1>
+    <h1 class="main-head2">Enter Your Obtained Marks of Each Subject</h1>
 
 
-        <label for="sub">Chemistry</label><br />
-        <input type="text" class="Chem-mark" placeholder="Enter Your Marks"><br /><br />
-        <label for="sub ">Physics</label><br />
-        <input type="text" class="Phy-mark" placeholder="Enter Your Marks"><br /><br />
-        <label for="sub">Mathematics</label><br />
-        <input type="text" class="Math-mark" placeholder="Enter Your Marks"><br /><br />
-        <label for="sub">Computer</label><br />
-        <input type="text" class="Com-mark" placeholder="Enter Your Marks"><br /><br />
-        <button onclick="showResult()">Show Result</button>
+        <div class="form">
+            <label for="sub">Subject 1</label><br />
+        <input type="number" class="Chem-mark" placeholder="Enter Your Marks"><br /><br />
+        <label for="sub ">Subject 2</label><br />
+        <input type="number" class="Phy-mark" placeholder="Enter Your Marks"><br /><br />
+        <label for="sub">Subject 3</label><br />
+        <input type="number" class="Math-mark" placeholder="Enter Your Marks"><br /><br />
+        <label for="sub">Subject 4</label><br />
+        <input type="number" class="Com-mark" placeholder="Enter Your Marks"><br /><br />
+        <button class="result-btn" onclick="showResult()">Show Result</button>
+        </div>
 
         <h2>Total Marks : <span id="totalmarks">0</span></h2>
         <h2>Percentage : <span id="Percentage"></span>%</h2>

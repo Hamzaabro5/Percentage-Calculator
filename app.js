@@ -20,7 +20,7 @@ function showResult() {
     
     var studentpercentage = obtainedMarks/400 * 100
     percentage.innerHTML = studentpercentage;
-    totalmarks.innerHTML = obtainedMarks;
+    totalmarks.innerHTML = `${obtainedMarks} out of 400`;
 
     if(percentage.innerHTML >=80) {
         console.log(grade.innerHTML = `A+` );

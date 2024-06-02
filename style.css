@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 64%;
+}
 body{
     background-image: url(./6706368_3408105.jpg);
     
@@ -50,11 +53,16 @@ input:hover{
     padding: 10px;
     border: 1px solid black;
     margin-bottom: 20px;
+    background-color: #611010;
+    color: #fff;
+    transition: 0.1s ease-in;
 }
 .result-btn:hover{
-    background-color: rgb(95, 0, 0);
+    background-color: #960d0d;
     color: #fff;
-    border: 2px solid black;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: 0.1s ease-out;
 }
 h2{
     text-align: center;
